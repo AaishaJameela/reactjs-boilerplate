@@ -1,0 +1,6 @@
+.sidebar{
+  position: fixed;
+  background: green;
+  height: 150px;
+  width: 200px;
+}
