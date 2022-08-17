@@ -5,10 +5,9 @@ const getHeader = (titleName) => {
 
   return (
     <div className="Header">
-      <h1>Header/</h1>
-      <h2 style={{ color: "blue" }}>{titleName.newTitle}</h2>
+      <center><h2 style={{ color: "blue" }}>{titleName.newTitle}</h2>
       <h2 style={{ color: "green" }}>{titleName.newTitle1}</h2>
-      <h2 style={{ color: "violet" }}>{titleName.newTitle2}</h2>
+      <h2 style={{ color: "violet" }}>{titleName.newTitle2}</h2></center>
     </div>
   )
 }

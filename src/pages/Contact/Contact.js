@@ -6,8 +6,8 @@ const Contact = () => {
   const title2="Contact";
     return (
         <div className="Contact">
-        <Header newTitle2={title2} />
         <Layout>
+        <Header newTitle2={title2} />
         <div>
              <center><h2>Contact Us</h2></center>
         </div>

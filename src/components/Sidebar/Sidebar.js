@@ -1,12 +1,14 @@
 import React from 'react';
-import sidebar from './Sidebar.css';
 import { Link } from "react-router-dom";
+import pic from '../../assets/images/welcome.jpg';
+import sidebar from './Sidebar.css';
 
 const Sidebar = () => {
   return (
 
     <div className="sidebar">
-    <h1>Sidebar</h1>
+    <br></br>
+    <center><img src={pic} alt="Welcome!"/></center>
     <ul>
       <li> <Link to ="/">Home</Link></li>
       <li> <Link to ="/About">About</Link></li>

@@ -39,8 +39,8 @@ const About= () => {
 
   return (
 <div className="About">
-<Header newTitle1={title1}/>
 <Layout>
+<Header newTitle1={title1}/>
 
 <div><center><h1>SIGN-UP</h1>
 <label><b>Enter your first name:</b></label><br></br>
