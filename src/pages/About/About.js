@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Layout from '../../components/Layout/Layout.js';
-import about from './About.css';
+import Header from '../../components/Header/Header.js';
 
 const About= () => { 
   const title1="About";
@@ -39,7 +39,8 @@ const About= () => {
 
   return (
 <div className="About">
-<Layout newTitle1={title1}/>
+<Header newTitle1={title1}/>
+<Layout>
 
 <div><center><h1>SIGN-UP</h1>
 <label><b>Enter your first name:</b></label><br></br>
@@ -58,6 +59,8 @@ const About= () => {
 <label><b>Enter your phone number:</b></label><br></br>
 <input type="number" id="phone" value={inputPhone} onChange={handleInputPhone}></input><br></br><br></br>
 <button onClick = {handleSubmitButton}>Submit</button></center></div>
+
+</Layout>
 </div>
 );
 }
