@@ -1,18 +1,20 @@
-import React from 'react';
-import Layout from '../../components/Layout/Layout.js';
-import Header from '../../components/Header/Header.js';
+import React from "react";
+import Layout from "../../components/Layout/Layout.js";
+import Header from "../../components/Header/Header.js";
 
 const Contact = () => {
-  const title2="Contact";
-    return (
-        <div className="Contact">
-        <Layout>
+  const title2 = "Contact";
+  return (
+    <div className="Contact">
+      <Layout>
         <Header newTitle2={title2} />
         <div>
-             <center><h2>Contact Us</h2></center>
+          <center>
+            <h2>Contact Us</h2>
+          </center>
         </div>
-        </Layout>
-        </div>
-    );
-    }
-    export default Contact;
+      </Layout>
+    </div>
+  );
+};
+export default Contact;

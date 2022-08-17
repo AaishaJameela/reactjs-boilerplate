@@ -1,11 +1,11 @@
-.sidebar{
+.sidebar {
   position: fixed;
   background: green;
   height: 1500px;
   width: 150px;
 }
 
-img{
-  width:100px;
-  height:100px;
+img {
+  width: 100px;
+  height: 100px;
 }
