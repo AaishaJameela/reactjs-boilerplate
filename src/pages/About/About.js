@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Layout from "../../components/Layout/Layout.js";
-import Header from "../../components/Header/Header.js";
 
 const About = () => {
-  const title1 = "About";
   const [inputName, setInputName] = useState("");
   const handleInputName = (e) => {
     setInputName(e.target.value);
@@ -39,9 +37,7 @@ const About = () => {
 
   return (
     <div className="About">
-      <Layout>
-        <Header newTitle1={title1} />
-
+      <Layout title="About" color="Green">
         <div>
           <center>
             <h1>SIGN-UP</h1>

@@ -1,17 +1,15 @@
 import React from "react";
 //import {useState} from 'react';
-import Layout from "../../components/Layout/Layout.js";
-import Header from "../../components/Header/Header.js";
+import Sidebar from "../../components/Sidebar/Sidebar.js";
 
 const Home = () => {
-  const title = "Home";
   //const [click, setClick] = useState(0)
+  const getData = (getData) => {
+    console.log(getData);
+  };
   return (
     <div className="Home">
-      <Layout>
-        <Header newTitle={title} />
-        <div>Hi, welcome to this page!</div>
-      </Layout>
+      <Sidebar getData={getData} />
     </div>
 
     //<p>You have clicked {click} times.</p>

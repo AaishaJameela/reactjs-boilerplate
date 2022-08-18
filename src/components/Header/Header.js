@@ -1,13 +1,11 @@
 import React from "react";
 import "./Header.css";
 
-const getHeader = (titleName) => {
+const getHeader = (props) => {
   return (
     <div className="Header">
       <center>
-        <h2 style={{ color: "blue" }}>{titleName.newTitle}</h2>
-        <h2 style={{ color: "green" }}>{titleName.newTitle1}</h2>
-        <h2 style={{ color: "violet" }}>{titleName.newTitle2}</h2>
+        <h2 style={{ color: props.color }}>{props.title}</h2>
       </center>
     </div>
   );
