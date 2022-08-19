@@ -5,7 +5,7 @@ const getHeader = (props) => {
   return (
     <div className="Header">
       <center>
-        <h2 style={{ color: props.color }}>{props.title}</h2>
+        <h2 style={{ color: props.newColor }}>{props.newTitle}</h2>
       </center>
     </div>
   );

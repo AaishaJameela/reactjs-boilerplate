@@ -36,8 +36,8 @@ const About = () => {
   };
 
   return (
-    <div className="About">
-      <Layout title="About" color="Green">
+    <Layout title="About" color="green">
+      <div className="About">
         <div>
           <center>
             <h1>SIGN-UP</h1>
@@ -109,8 +109,8 @@ const About = () => {
             <button onClick={handleSubmitButton}>Submit</button>
           </center>
         </div>
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   );
 };
 

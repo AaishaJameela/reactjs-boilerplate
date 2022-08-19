@@ -3,12 +3,16 @@ import "./Layout.css";
 import Header from "../Header/Header.js";
 import Sidebar from "../Sidebar/Sidebar.js";
 
-const Layout = ({ children, newTitle, color }) => {
+const Layout = ({ children, title, color }) => {
   return (
     <div className="Layout">
-      <Header newTitle1={newTitle} color1={color} />
-      <Sidebar />
-      {children}
+      <div>
+        <Sidebar />
+      </div>
+      <div>
+        <Header newTitle={title} newColor={color} />
+        {children}
+      </div>
     </div>
   );
 };
