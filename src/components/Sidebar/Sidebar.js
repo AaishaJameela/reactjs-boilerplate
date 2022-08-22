@@ -1,24 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import pic from "../../assets/images/welcome.jpg";
 import sidebar from "./Sidebar.css";
+//import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({ getData }) => {
   const data = "Hi, welcome to this page!";
   return (
     <div className="sidebar">
       <center>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-          <li>
-            <Link to="/Contact">Contact</Link>
-          </li>
-        </ul>
+        <button onClick={() => getData(data)}>Home</button>
       </center>
     </div>
   );
