@@ -5,8 +5,8 @@ import Sidebar from "../../components/Sidebar/Sidebar.js";
 
 const Home = () => {
   //const [click, setClick] = useState(0)
-  const getData = (getData) => {
-    console.log(getData);
+  const getData = (Data) => {
+    console.log(Data);
   };
   return (
     <Sidebar getData={getData} />
