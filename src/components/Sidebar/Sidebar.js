@@ -1,12 +1,12 @@
 import React from "react";
-import sidebar from "./Sidebar.css";
-//import { Link } from "react-router-dom";
+import "./Sidebar.css";
 
 const Sidebar = ({ getData }) => {
   const data = "Hi, welcome to this page!";
   return (
     <div className="sidebar">
       <center>
+        <h2>Sidebar</h2>
         <button onClick={() => getData(data)}>Home</button>
       </center>
     </div>
