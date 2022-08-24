@@ -13,7 +13,15 @@ const Home = () => {
       <Layout title="Header" color="black"></Layout>
       <center>
         <p>Your favorite color is {color}!</p>
+        <input name="color" onChange={(e) => setColor("orange")}></input>
+        <input name="color" onChange={(e) => setColor("yellow")}></input>
+        <input name="color" onChange={(e) => setColor("green")}></input>
         <input name="color" onChange={(e) => setColor("blue")}></input>
+        <input name="color" onChange={(e) => setColor("violet")}></input>
+        <input name="color" onChange={(e) => setColor("black")}></input>
+        <input name="color" onChange={(e) => setColor("brown")}></input>
+        <input name="color" onChange={(e) => setColor("pink")}></input>
+        <input name="color" onChange={(e) => setColor("white")}></input>
       </center>
     </div>
   );
